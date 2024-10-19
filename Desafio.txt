@@ -1,0 +1,27 @@
+Estrutura HTML:
+
+@ Um cabeçalho com seu nome e uma breve descrição.
+@ Uma seção sobre você (biografia).
+@ Uma seção para seus projetos com pelo menos três cartões, cada um com:
+ Título do projeto
+ Descrição breve
+ Link para o projeto (pode ser um link fictício).
+@ Uma seção de contato com um formulário que inclua:
+
+Nome
+E-mail
+Mensagem
+Botão de envio
+
+Estilização com CSS:
+
+@ Escolha uma paleta de cores harmoniosa.
+@ Use fontes diferentes para o cabeçalho e o corpo do texto.
+@ Adicione espaçamento e margens para tornar o layout limpo e organizado.
+@ Inclua efeitos de hover nos cartões de projeto.
+
+Extras (opcional):
+
+@ Adicione ícones sociais (por exemplo, LinkedIn, GitHub).
+@ Use Flexbox ou Grid para organizar as seções.
+@ Inclua uma imagem de fundo ou um cabeçalho personalizado.

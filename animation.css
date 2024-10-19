@@ -1,0 +1,14 @@
+@keyframes slide1{
+    0%{opacity:0; right: 25em;}
+    /* 25%{opacity: 0.25; right: 20em;}
+    50%{opacity: 0.5; right: 15em;}
+    75%{opacity: 0.75; right: 10em;} */
+    100%{opacity:1; right: 0em;}
+}
+@keyframes slide2{
+    0%{opacity:0; right: 25em;}
+    25%{opacity: 0.25; right: 20em;}
+    50%{opacity: 0.5; right: 15em;}
+    75%{opacity: 0.75; right: 10em;}
+    100%{opacity:1; right: 0em;}
+}

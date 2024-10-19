@@ -1,0 +1,79 @@
+html{
+    background-image: url("./img/Fundo-Digital.png");
+    color: white;
+    font-family:"Nunito", sans-serif;
+    width: auto;
+    height: auto;
+}
+body{
+    margin: 0;
+}
+
+main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    position: relative;
+    background-color: #4e4e4ec4;
+    width: 30em;
+    margin-top: 1em;
+    text-align: center;
+    border-radius: 2em;
+}
+#perfil, #bio{
+    animation: slide1 1s 0s alternate;
+}
+#experiencias, #contat{
+    animation: slide2 0.9s 0s alternate;
+}
+#experiencias{
+    position: relative;
+    display: flex;
+}
+.project{
+    position: relative;
+    width: auto;
+    top: -1em;
+}
+.project > a{
+    color: black;
+    font-family:"Nunito", sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+#project2 > a{
+    position: relative;
+    top: 1em;
+}
+.project:hover{
+    font-size: 1.05em;
+}
+#contato > ul{
+    position: relative;
+    list-style-type:none;
+    padding: 0 5em 2em 0;
+    width: 75%;
+}
+#contato > ul > li{
+    position: relative;
+    text-align:right;
+}
+#contat > #contato > #botao{
+    position: relative;
+    font-family:"Nunito", sans-serif;
+    border: 0;
+    padding: 0;
+    width: 5em;
+    height: 2em;
+    bottom: 2.5em;
+    cursor: pointer;
+    left: 1.5em;
+}
+#contat > #contato > a{
+    position: relative;
+    right: 1.5em;
+}
